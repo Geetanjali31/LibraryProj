@@ -10,7 +10,10 @@ import UIKit
 
 public class TestFileFromSubFolder1: NSObject {
     public func restFileFromSubFolder1Function() {
-        print("\n\nThis is function from cocoapod file's subfolder.")
+        privateFunction()
     }
 
+    func privateFunction() {
+        print("\n\nThis is function from cocoapod file's subfolder.")
+    }
 }
