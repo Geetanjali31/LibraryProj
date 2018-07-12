@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 public class TestFile: NSObject {
     public func testFileFunction() {
