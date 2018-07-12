@@ -35,7 +35,7 @@ s.source = { :git => "https://github.com/Geetanjali31/LibraryProj.git", :tag => 
 
 
 # 7
-s.framework = "UIKit"
+s.framework = "UIKit", "CoreData"
 s.dependency 'Alamofire'
 s.dependency 'MBProgressHUD'
 
