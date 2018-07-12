@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 public class TestFileFromSubFolder1: NSObject {
     public func restFileFromSubFolder1Function() {
